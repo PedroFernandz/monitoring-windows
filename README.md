@@ -6,7 +6,7 @@ Este repositorio contiene una colección de scripts en **Python** diseñados par
 
 **Open Hardware Monitor** es una herramienta de código abierto que permite monitorear sensores de hardware en tiempo real, como temperatura, voltaje, carga y frecuencias de CPU y GPU. Los datos generados pueden exportarse a archivos CSV, los cuales son procesados por estos scripts para análisis y optimización.
 
-Puedes descargar **Open Hardware Monitor** desde su sitio oficial: [Open Hardware Monitor](https://openhardwaremonitor.org/).
+Puedes descargar **Open Hardware Monitor** desde su sitio oficial: [Open Hardware Monitor](https://openhardwaremonitor.org/downloads/).
 
 Estos scripts están diseñados para automatizar la recopilación y análisis de datos, facilitando la detección de anomalías, la optimización del rendimiento del sistema y la integración con herramientas de monitoreo como **Zabbix**.
 
