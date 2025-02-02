@@ -57,7 +57,7 @@ pip install pandas
    ```
 
 4. **Configuración en Zabbix Agent (Opcional)**
-   Para integrar estos scripts con **Zabbix**, agrega las siguientes líneas al archivo de configuración de Zabbix Agent (`zabbix_agentd.conf`):
+   Para integrar estos scripts con **Zabbix**, agrega las siguientes líneas a los ficheros que correspondientes de cada métrica o directamente al archivo de configuración de Zabbix Agent (`zabbix_agentd.conf`):
    ```ini
    UserParameter=cpu.temperature, "C:\Users\pedro\AppData\Local\Programs\Python\Python313\python.exe" "C:\Program Files\Zabbix Agent\scripts\temperature_cpu.py"
    UserParameter=cpu.power, "C:\Users\pedro\AppData\Local\Programs\Python\Python313\python.exe" "C:\Program Files\Zabbix Agent\scripts\power_cpu.py"
